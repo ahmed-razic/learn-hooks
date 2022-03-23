@@ -1,6 +1,7 @@
 import StateHook from './comp/StateHook';
 import Example from './comp/Example';
 import Count from './comp/Count';
+import Counter from './comp/Counter';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       {/* <StateHook /> */}
       {/* <Example /> */}
       {/* <Count /> */}
+      <Counter />
     </div>
   );
 }
